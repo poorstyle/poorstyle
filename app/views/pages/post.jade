@@ -1,0 +1,17 @@
+extend ../layout
+block content
+  link(href="/stylesheets/post.css",rel="stylesheet")
+  div.index-left
+  div.index-right
+    div.right-wrap
+      div.right-top
+        ul.topic-nav.clearfix
+          li.active
+            a(href="javascript:;") 发布
+        .container.post-form
+          form.form-horizontal(method="post",action="/post/new")
+            input(type="hidden",name="post[_id]",value="#{post._id}")
+            input#inputTitle.form-control(type="text",name="post[title]",value="#{post.title}",placeholder="请输入标题")
+            textarea.form-control.post-content(name="post[content]",value="#{post.content}")
+            button.btn.btn-default(type="submit") 发布
+

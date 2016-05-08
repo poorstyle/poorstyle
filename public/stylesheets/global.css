@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*公共样式*/
+
+* { padding:0; margin:0; list-style:none; font-size:14px; font-family:proximanova-light, Arial, Helvetica,"微软雅黑", sans-serif; }
+.clear { clear:both; }
+.clearfix:after {content: "";display: block; height: 0;clear: both;visibility: hidden; overflow:hidden;}
+.clearfix {zoom:1}
+a { outline: none; text-decoration:none;}
+a:hover{text-decoration:none;}
+body,div,span,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,img { border:0; }
+.fl { float:left; }
+.fr { float:right; }
+
+.navbar-right{
+	margin-right: 0;
+}
+
+
+
+
+

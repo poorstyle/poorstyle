@@ -1,0 +1,24 @@
+{
+  "name": "imovie",
+  "description": "movei",
+  "main": "app.js",
+  "authors": [
+    "kevin"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "movie"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

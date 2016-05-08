@@ -1,0 +1,39 @@
+extend ../layout
+block content
+  link(href="/stylesheets/index.css",rel="stylesheet")
+  div.index-left
+  div.index-right
+    div.right-wrap
+      ul.topic-nav.clearfix
+        li.active
+          a(href="javascript:;") 热门
+        li
+          a(href="javascript:;") 摄影
+        li
+          a(href="javascript:;") 随身听
+      ul.topic-list
+        each item in posts
+          li
+            p.topic-info <span class="info-name">keivn</span> <span class="info-time">2016-06-03</span>
+            h3
+              a(href="javascript:;") #{item.title}
+        //li
+        //  p.topic-info <span class="info-name">keivn</span> <span class="info-time">2016-06-03</span>
+        //  h3
+        //    a(href="javascript:;") 向LT29i致敬！一个完美的SE如何打造出来
+        //li
+        //  p.topic-info <span class="info-name">keivn</span> <span class="info-time">2016-06-03</span>
+        //  h3
+        //    a(href="javascript:;") 会聊天就是心里装着别人—三大聊天技巧，让你告别不会说话
+        //li
+        //  p.topic-info <span class="info-name">keivn</span> <span class="info-time">2016-06-03</span>
+        //  h3
+        //    a(href="javascript:;") 分享一篇针对数码音和模拟音的详细讲解，你就真的了解自己更倾向哪边！
+        //li
+        //  p.topic-info <span class="info-name">keivn</span> <span class="info-time">2016-06-03</span>
+        //  h3
+        //    a(href="javascript:;") 向LT29i致敬！一个完美的SE如何打造出来
+        //li
+        //  p.topic-info <span class="info-name">keivn</span> <span class="info-time">2016-06-03</span>
+        //  h3
+        //    a(href="javascript:;") 会聊天就是心里装着别人—三大聊天技巧，让你告别不会说话

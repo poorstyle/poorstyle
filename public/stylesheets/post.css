@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	-background: #ccc;
+}
+.index-left{
+	position: fixed;
+	top: 50px;
+	left: 0px;
+	width:400px;
+	height: 100%;
+	background: url("/images/bg.jpg")no-repeat;
+	background-size: cover;
+}
+.index-right{
+	overflow: hidden;
+	-background:#333;
+	width: 100%;
+	padding:70px 0 0 420px;
+}
+.topic-nav{
+	border-bottom: 1px solid #ebebbe;
+	padding-bottom: 10px;
+	position: fixed;
+	background: #fff;
+	width: 100%;
+	padding-right: 20px;
+	height: 60px;
+	line-height: 80px;
+	top: 50px;
+}
+.topic-nav li{
+	float: left;
+}
+.topic-nav li a{
+	float: left;
+	display: inline-block;
+	color: #ccc;
+	padding: 0 10px;
+}
+.topic-nav li.active a{
+	color: #8a4343;
+}
+.right-wrap{
+	padding-right: 20px;
+}
+
+.post-form{
+	margin-top: 70px;
+}
+.form-control{
+	width: 500px;
+}
+textarea.post-content{
+	height: 300px;
+	padding: 20px;
+	margin-top: 30px;
+}
